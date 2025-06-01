@@ -7,16 +7,16 @@ const app = express();
 
 // Lista de videos de YouTube
 const videoUrls = [
-    'https://youtu.be/BR3NFEXuSv0?si=mSCaAzM4r6NjbC5L',
-    'https://youtu.be/XOt3Rgs-tt0?si=RU86-8VqLKJ3TH60',
-    'https://youtu.be/nD2TZahdAJY?si=3DfZBqXeEhAsgQH8',
-    'https://youtu.be/lKgDhWCEfQo?si=6mD0EbDePrs_EAiI',
-    'https://youtu.be/4uwZ-80XAqw?si=b62G5uNlWCdHBcnT',
-    'https://youtu.be/NRQ7Kv7-8Hs?si=kFxtzMTvOwVFRx84',
-    'https://youtu.be/rzDrGSWteZg?si=CqsE3ffZU5H0Mnyg'
+    'https://youtu.be/wqrL9YbMYyQ?si=5KZ6uSK6cb6kFajb',
+    'https://youtu.be/0hRJG0bP5oE?si=OqQrcodSpKntg7E8',
+    'https://youtu.be/SCU1ql8HFQQ?si=-xgiP--f-IisDuVd',
+    'https://youtu.be/TSUr76fC6o8?si=T_FQZuivuQKju1e8',
+    'https://youtu.be/BvXFzSAw2AA?si=mqI0HSUHsSTr87J8',
+    'https://youtu.be/0FhYRJqNvgo?si=3Ow_nsIY73DKEzqN',
+    'https://youtu.be/_yePROy6Iq8?si=17cmlAIlf_LPKXVr'
 ];
 
-const SRT_ENDPOINT = 'srt://rtmp.livepeer.com:2935?streamid=95e4-urol-igfh-cehi';
+const SRT_ENDPOINT = 'srt://rtmp.livepeer.com:2935?streamid=6b1e-2qwa-8jpd-wx37';
 const DOWNLOAD_DIR = './downloads';
 const ASSETS_DIR = './assets';
 
